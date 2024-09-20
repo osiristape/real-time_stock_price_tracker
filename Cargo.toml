@@ -1,0 +1,10 @@
+[package]
+name = "real_time_stock_tracker"
+version = "0.1.0"
+edition = "2021"
+
+# Optional metadata to add a description and repository link
+description = "A Rust program that simulates a real-time stock price tracker"
+repository = "https://github.com/yourusername/real_time_stock_tracker"
+
+[dependencies]
