@@ -30,7 +30,7 @@ To run this project, you will need:
    
 2. Navigate to the project directory:
    ```bash
-   cd real_time_stock_price_tracker
+   cd real-time_stock_price_tracker
    ```
 
 3. Add your Alpha Vantage API key to the main.rs file by replacing YOUR_ALPHA_VANTAGE_API_KEY with your actual API key.
