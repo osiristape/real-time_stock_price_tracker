@@ -1,10 +1,13 @@
 [package]
-name = "real_time_stock_tracker"
+name = "real_time_stock_price_tracker"
 version = "0.1.0"
 edition = "2021"
 
 # Optional metadata to add a description and repository link
-description = "A Rust program that simulates a real-time stock price tracker"
-repository = "https://github.com/osiristape/real_time_stock_tracker"
+description = "A Rust program that tracks real-time stock prices and calculates the average of the last n updates."
+repository = "https://https://github.com/osiristape/real-time_stock_price_tracker"
 
 [dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
