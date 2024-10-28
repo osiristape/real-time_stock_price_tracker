@@ -2,6 +2,10 @@
 
 This project is a simple real-time stock price tracker built in Rust using the Alpha Vantage API. It fetches real-time stock prices, stores the last `n` updates, and calculates the average of these prices in real-time.
 
+| Author's Note |
+|---------------|
+|This Rust project, **Real-time Stock Price Tracker**, was created to familiarize myself with Rust syntax and reinforce my understanding of its fundamentals. By building this application, I aimed to apply core concepts in a practical setting, enhancing my learning experience through hands-on coding.|
+
 ## Features
 
 - Fetches real-time stock prices using the Alpha Vantage API.
